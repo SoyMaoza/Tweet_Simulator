@@ -1,0 +1,21 @@
+.tweet{
+    position: relative;
+}
+.tweet .tweet__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tweet .tweet__header h5{
+    margin: 0;;
+}
+.tweet .tweet__header:hover svg{
+    cursor: pointer;
+    fill: #f00;
+}
+.tweet .tweet__date-add-tweet{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 10px;
+}
